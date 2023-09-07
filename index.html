@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorCycle</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="input-section">
+      <div class="color-inputs">
+        <label>青: <input type="text" id="blue-input" maxlength="2"></label>
+        <label>赤: <input type="text" id="red-input" maxlength="2"></label>
+        <label>緑: <input type="text" id="green-input" maxlength="2"></label>
+      </div>
+      <div class="increment-inputs">
+        <label>赤の増分: <input type="text" id="red-increment" maxlength="2"></label>
+        <label>青の増分: <input type="text" id="blue-increment" maxlength="2"></label>
+        <label>緑の増分: <input type="text" id="green-increment" maxlength="2"></label>
+      </div>
+      <button id="start-stop-button">開始</button>
+    </div>
+    <div class="color-box"></div>
+  </div>
+  <script src="color-cycle.js"></script>
+</body>
+</html>
