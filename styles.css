@@ -6,9 +6,19 @@
 
 .input-section {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
+}
+
+.color-inputs, .increment-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 200px;
+  margin: auto;
 }
 
 .color-box {
