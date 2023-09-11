@@ -26,3 +26,7 @@ button {
   height: 200px;
   border: 1px solid #000;
 }
+
+p {
+  text-align: center;
+}
